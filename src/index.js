@@ -3,11 +3,11 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import MobileRes from "./classes/mobileres";
+import Fetcher from "./classes/fetcher";
 
 ReactDOM.render(
   <React.StrictMode>
-    <MobileRes />
+    <Fetcher />
   </React.StrictMode>,
   document.getElementById('root')
 );
